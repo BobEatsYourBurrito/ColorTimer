@@ -18,5 +18,11 @@ function draw() {
     time = 0;
     background(0);
   }
-  console.log(time);
+
+  push();
+  fill(255);
+  translate(width / 2.35, 40);
+  textSize(30);
+  text("Bens Mini-Map Trainer", 0, 0);
+  pop();
 }
